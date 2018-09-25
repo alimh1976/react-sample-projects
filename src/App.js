@@ -9,13 +9,6 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <nav className="nav justify-content-around">
-
-            <li className="nav-item active">
-              <Link to="/Login">Login</Link>
-            </li>
-            <li className="nav-item" >
-              <Link to="/BoxList">Box List</Link>
-            </li>
             <li className="nav-item" >
               <Link to="/About">About ReactJS</Link>
             </li>
@@ -24,12 +17,6 @@ class App extends Component {
             </li>
             <li className="nav-item" >
               <Link to="/Users">User List</Link>
-            </li>
-            <li className="nav-item" >
-              <Link to="/products">Product List</Link>
-            </li>
-            <li className="nav-item" >
-              <Link to="/contact">Contact Us</Link>
             </li>
             <li className="nav-item" >
               <Link to="/mypractice01">practice01</Link>
